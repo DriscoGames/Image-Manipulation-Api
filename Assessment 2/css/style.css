@@ -1,0 +1,341 @@
+/*
+Daniel O'Driscoll
+R00221504
+*/
+
+/*================HOME PAGE =================================*/
+/*================ HEADINGS AND NAV BAR SECTION ================= */
+html{
+
+	background-image: url(../images/background-balloon.jpg);
+	background-size: 1000px;
+}
+
+@media all and (min-width: 480px){	/* put all css code in query to fit screens*/
+
+
+body{
+	width:90%;
+	margin:auto;
+	min-width:600px;max-width:2000px
+}
+header {
+	background-color: #DEB887;
+	width: auto;
+	padding: 10px;
+	border: 5px solid black;
+	border-radius: 10px;				
+	margin: auto;
+	background-image: none;
+
+}
+header img{
+	position: absolute;
+	max-width: 90px;
+	max-height: 90px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+
+}
+header h1{
+	margin-left: 80px;
+	margin-top: 30px;
+}
+
+nav{
+	margin-left: 400px;
+}
+
+nav a{
+	background:black; color:orange;
+	text-decoration: none;
+	border-radius: 20px;
+	display:inline-block;
+	padding: 5px;
+	width: 150px;
+	margin-left: 0px;
+	text-align: center;
+}
+nav a:hover{background:gray;}
+
+/*================= SIDEBAR SECTION OF MAIN PAGE (COVID 19 PART) ====================*/
+
+.sideBar{
+	background-color: #FFDAB9;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	padding-left: 50px;
+	font-size: 110%;
+	float: right;
+	width: 560px;
+	border: 5px solid black;
+
+
+}
+
+/*============= MAIN BODY/ CONTENT SECTION (=================*/
+
+main {
+	background-color: #F5DEB3;
+	margin-left: 10px;
+	margin-right: 680px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	font-size: 110%;
+	border: 5px solid black;
+
+
+}
+
+.headingStyle{
+	font-size: 150%;
+
+}
+
+/*============ FOOTER SECTION =============*/
+
+footer {
+	background-color: #DEB887;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+	border: 5px solid black;
+	
+}
+
+/*=============== EVENTS.HTML --> Events table ==========*/
+table, td, th {
+  border: 2px solid black;
+ 
+}
+
+th, td{
+	height: 50px;
+	width: 50px;
+}
+tr:nth-child(odd){
+	background-color: #F5DEB3;
+
+}
+
+tr:nth-child(even){
+	background-color: #FFDAB9;
+}
+
+td sup{
+	padding-right: 10em;
+}
+td {
+	text-align: right;
+
+}
+
+
+td:hover {
+	background-color: #D6EEEE;
+	font-size: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+/*============= MEMBERSHIP.HTML PAGE =========*/
+.membershipStyle{
+	background-color: #FFDAB9;
+	border:5px solid black;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+input[type = text]{
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin:5px;
+}
+
+input[type = tel]{
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin: 5px;
+}
+
+input[type = email]{
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin: 5px;
+}
+
+input[type = date]{
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin: 5px;
+}
+
+input[type = radio]{
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin: 5px;
+}
+
+select{
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin: 5px;
+}
+option{
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin: 5px;
+}
+
+textarea{
+
+	background-color: #FFF0F5;
+	border:1px solid black;
+	margin-top: 5px;
+	margin-bottom: 20px;
+
+}
+
+
+
+.buttonDesign{
+	float: right;
+	margin-top: -50px;
+	margin-right: 50px;
+
+}
+
+.buttonDesign button{
+	font: bold 16px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+ border: 1px solid black;
+ margin-right: 5px;
+
+}
+
+.buttonDesign a {
+	font: bold 16px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+ border: 1px solid black;
+}
+
+.buttonDesign, button:hover{
+	font-size: 110%;
+	color: silver;
+	
+}
+
+.buttonDesign, a:hover{
+	font-size: 110%;
+	color: lightgray;
+	
+}
+form img{
+	float:right;
+	width: 300px;
+	height: 400px;
+	margin-top: -100px
+
+	
+}
+
+/*=========== Contact Us.html PAGE==================*/
+/*========== 3 column Css layout part=============*/
+.column {
+  float: left;
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #FFDAB9;
+  border:5px solid black;
+  margin: 5px;
+  padding: 5px;
+
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*==========twitter part (I did all I could, tried with so many backrounds and settings and didnt work :(  )*/
+.twitter-tweet{
+	display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+/*======== FAQs PART ================*/ 
+.box{
+	width: 500px;
+	height: 300px;
+	margin-bottom: 20px;
+	background: #F5DEB3;
+	border-radius: 7px;
+	border: 5px solid black;
+	box-shadow: 1px 2px 4px rgba(0,0,2);
+
+}
+
+.box .Heading{
+	background: #7800CF;
+	border-radius: 7px 7px 0px 0px;
+	padding:10px;
+	color: #F5DEB3;
+	text-align:center;
+	font-family: "rubik";
+
+}
+
+.faqs{
+	padding: 10px 20px;
+}
+
+
+
+details{
+	background: #DA70D6;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 20px;
+	font-family: "rubik";
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+details summary{
+	outline: none;
+
+}
+
+}

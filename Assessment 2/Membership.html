@@ -1,0 +1,95 @@
+
+<!--
+Daniel O'Driscoll
+R00221504
+-->
+
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+	<meta charset="utf-8">
+	<title>Membership</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+			<img src="MTU-logo.png" alt="MTU logo">
+
+			<h1 class="mainHeader">MTU Balloon Keepy Uppy Club</h1>
+
+				<nav>
+					
+						<a href="Homepage.html">Homepage</a>
+						<a href="Events.html">Events</a>
+						<a href="Membership.html">Membership</a>
+						<a href="ContactUs.html">Contact Us</a> 
+					
+				</nav>
+		</header>
+
+	<div class="membershipStyle">
+		<h1>MTU Balloon Club Membership</h1>
+
+	<form action="https://webdevcit.com/displayvalues.php" method="get" target="blank" id="membershipForm">
+		<label>Name&colon;<input required type="text" name="name" placeholder="Daniel O'Driscoll"></label> <br> 
+		<img src="images/balloons.jpg" alt="Picture of balloons">
+		<label>Email&colon;<input required type="email" name="email" placeholder="daniel@example.com"></label> <br>
+		<label>Phone Number&colon;<input required type="tel" name="phone"></label> <br>
+
+		<p>
+			Method of contact&colon;
+			<select>
+				<option value="email">Email</option>
+				<option value="sms">SMS</option>
+				<option value="zoom">Zoom</option>
+				<option value="whatsapp">WhatsApp</option>
+				<option value="facebook">Facebook</option>
+				<option value="instagram">Instagram</option>
+				
+			</select>
+		</p>
+
+		<label>D&period;O&period;B&colon;<input type="date" name="birthday"></label> <br>
+		<label>Field of study&colon;<input required type="text" name="course" placeholder="Computer Science"></label> <br>
+
+		<p>
+			Balloon keepy uppy experience&colon;
+			<label><input type="radio" name="experience" value="Novice">Novice</label>
+			<label><input type="radio" name="experience" value="Competent">Competent</label>
+			<label><input type="radio" name="experience" value="Expert">Expert</label> <br>
+
+			Would you like to take part in MTU competitions&quest;
+			<label><input type="radio" name="competition" value="Yes">Yes</label>
+			<label><input type="radio" name="competition" value="No">No</label>
+		</p>
+
+		<p>
+			<textarea name="reason" cols="80" rows = "5" placeholder="Reason for joining the club?"></textarea>	
+			
+		</p>
+
+	</form>
+
+	<div class="buttonDesign">
+		<button form="membershipForm" type="submit">Submit</button>
+		<a href="Homepage.html">Cancel</a>
+	</div>
+
+
+	</div>
+	
+	<footer>
+		<p>
+			<address>Office Location: 1st floor, Student Centre <br>
+			MTU Clubs <br>
+			Bishopstown, <br>
+			Cork, Ireland <br>
+			021-4335759 <br>
+			Daniel&period;developer@example.com<br><br>
+			<small>&copy; copyright 2021 Munster Technological University - MTU </small>
+		</address>
+		</p>
+	</footer>
+
+</body>
+</html>
